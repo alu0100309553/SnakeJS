@@ -210,7 +210,7 @@
       console.log(snake.score)
       window.clearInterval(animacion)
     }
-  },1000/10)
+  },1000/7)
 
   setInterval(function(){
     const food = Food.generate()
