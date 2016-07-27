@@ -153,6 +153,20 @@
   let foods = []
 
 
+  document.getElementById("up").addEventListener("click", function(){
+    snake.up();
+  })
+  document.getElementById("down").addEventListener("click", function(){
+    snake.down();
+  })
+  document.getElementById("left").addEventListener("click", function(){
+    snake.left();
+  })
+  document.getElementById("right").addEventListener("click", function(){
+    snake.right();
+  })
+
+
   window.addEventListener("keydown", function(ev){
     if(ev.keyCode > 36 && ev.keyCode < 41) ev.preventDefault()
     if(ev.keyCode === 40) return snake.down();
@@ -190,11 +204,9 @@
 
   function hit (a, b){
     var hit = false
-
     if (a.x === b.x && a.y === b.y){
       hit = true
     }
-
     return hit
   }
 
