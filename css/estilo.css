@@ -1,0 +1,48 @@
+div {
+  width: 600px;
+  height: 600px;
+  background-color: red;
+  align-items: center;
+  position: absolute;
+  top: 320px;
+  left:
+}
+
+button {
+  width: 33.33%;
+  height: 33.33%;
+  display: grid;
+}
+
+#up{
+  position: absolute;
+  top: 0px;
+  left: 33.33%;
+
+}
+#down{
+  position: absolute;
+  top: 66.66%;
+  left: 33.66%;
+
+}
+#left{
+  position: absolute;
+  top: 33.33%;
+  left: 0;
+
+}
+#right{
+  position: absolute;
+  top: 33.33%;
+  left: 66.66%;
+
+}
+body {
+
+}
+canvas {
+  width: 600px;
+  height: 300px;
+  border: solid;
+}
