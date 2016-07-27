@@ -4,7 +4,7 @@ div {
   background-color: red;
   align-items: center;
   position: absolute;
-  top: 320px;
+  top: 420px;
   left:
 }
 
@@ -43,6 +43,6 @@ body {
 }
 canvas {
   width: 600px;
-  height: 300px;
+  height: 400px;
   border: solid;
 }
