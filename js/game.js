@@ -222,7 +222,7 @@
       console.log(snake.score)
       window.clearInterval(animacion)
     }
-  },1000/7)
+  },1000/9)
 
   setInterval(function(){
     const food = Food.generate()
