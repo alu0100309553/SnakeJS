@@ -153,16 +153,16 @@
   let foods = []
 
 
-  document.getElementById("up").addEventListener("click", function(){
+  document.getElementById("up").addEventListener("mousedown", function(){
     snake.up();
   })
-  document.getElementById("down").addEventListener("click", function(){
+  document.getElementById("down").addEventListener("mousedown", function(){
     snake.down();
   })
-  document.getElementById("left").addEventListener("click", function(){
+  document.getElementById("left").addEventListener("mousedown", function(){
     snake.left();
   })
-  document.getElementById("right").addEventListener("click", function(){
+  document.getElementById("right").addEventListener("mousedown", function(){
     snake.right();
   })
 
